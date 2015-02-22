@@ -10,4 +10,19 @@
 
 @implementation Dog
 
+// make the dog bark!
+-(void)bark
+{
+    NSLog(@"WOOF WOOF!");
+}
+
+// makes the dog bark multiple imtes
+-(void)barkTimes: (int)noTimes
+{
+    for (int i = 0; i < noTimes; i ++)
+    {
+        NSLog(@"Woof WOOF!");
+    }
+}
+
 @end

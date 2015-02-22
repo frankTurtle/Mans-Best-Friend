@@ -36,6 +36,12 @@
     // test the object
     NSLog( @"My dog is named %@ and she is %i and breed is %@", myDog.name, myDog.age, myDog.breed );
     
+    // make the dog bark
+    [myDog bark];
+    
+    // make the dog bark x times
+    [myDog barkTimes:10];
+    
 }
 
 - (void)didReceiveMemoryWarning {

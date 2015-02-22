@@ -23,4 +23,12 @@
 // variable to hold the name of the dog
 @property (nonatomic, strong) NSString *name;
 
+// Methods //
+
+// make the dog bark!
+-(void)bark;
+
+// makes the dog bark multiple imtes
+-(void)barkTimes: (int)noTimes;
+
 @end
