@@ -25,4 +25,10 @@
     }
 }
 
+// method to change the breed to a werewolf
+-(void)changeBreedToWerewolf
+{
+    self.breed = @"Werewolf";
+}
+
 @end

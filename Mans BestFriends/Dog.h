@@ -31,4 +31,7 @@
 // makes the dog bark multiple imtes
 -(void)barkTimes: (int)noTimes;
 
+// changes breed to werewolf
+-(void)changeBreedToWerewolf;
+
 @end
