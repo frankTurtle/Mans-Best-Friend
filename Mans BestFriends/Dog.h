@@ -38,6 +38,15 @@
 // returns the number of dog years
 -(int)ageInDogYears: (int) regularAge;
 
+//CHALLENGE//
 
+// PROBLEM I //
+-(void)consolePrint: (int) numIn;
+
+// PROBLEM II //
+-(void)consolePrintRange: (int)start  ending:(int)end;
+
+// PROBLEM III //
+-(int)factorial: (int)in;
 
 @end

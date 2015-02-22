@@ -53,4 +53,40 @@
     return regularAge * 7;
 }
 
+//CHALLENGE//
+
+// PROBLEM 1 //
+// takes an in and prints every number until 1
+-(void)consolePrint: (int) numIn
+{
+    for (int i = numIn; i > 0; i--)
+    {
+        NSLog(@"%i",i);
+    }
+}
+
+// PROBLEM II //
+// takes a start and stop and prints out each number in between
+-(void)consolePrintRange: (int)start  ending:(int)end
+{
+    for (int i = start; i >= end; i --)
+    {
+        NSLog(@"%i", i);
+    }
+}
+
+// PROBLEM III //
+// takes in a number and returns the factorial of that number
+-(int)factorial: (int)in
+{
+    int returnNum = 1;
+    
+    for( int i = in; i > 0; i --)
+    {
+        returnNum *= i;
+    }
+    
+    return returnNum;
+}
+
 @end
