@@ -42,6 +42,10 @@
     // make the dog bark x times
     [myDog barkTimes:10];
     
+    // test the overloaded method barkTimes
+    [myDog barkTimes:2 loudly:NO];
+    [myDog barkTimes:5 loudly:YES];
+    
 }
 
 - (void)didReceiveMemoryWarning {
