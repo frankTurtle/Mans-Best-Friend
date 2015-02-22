@@ -21,7 +21,7 @@
 {
     for (int i = 0; i < noTimes; i ++)
     {
-        NSLog(@"Woof WOOF!");
+        [self bark];
     }
 }
 
