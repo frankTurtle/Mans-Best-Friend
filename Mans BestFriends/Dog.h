@@ -32,9 +32,11 @@
 -(void)barkTimes: (int)noTimes;
 -(void)barkTimes:(int)noTimes loudly:(BOOL)isLoud;
 
-
 // changes breed to werewolf
 -(void)changeBreedToWerewolf;
+
+// returns the number of dog years
+-(int)ageInDogYears: (int) regularAge;
 
 
 

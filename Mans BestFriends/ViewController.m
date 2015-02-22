@@ -46,6 +46,10 @@
     [myDog barkTimes:2 loudly:NO];
     [myDog barkTimes:5 loudly:YES];
     
+    // testing the return method
+    int dogYears = [myDog ageInDogYears: myDog.age];
+    NSLog(@"Dog years: %i", dogYears);
+    
 }
 
 - (void)didReceiveMemoryWarning {
