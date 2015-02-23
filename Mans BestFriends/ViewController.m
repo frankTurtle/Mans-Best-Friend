@@ -68,6 +68,29 @@
     self.myImageView.image = myDog.image;
     self.nameLabel.text = myDog.name;
     self.breedLabel.text = myDog.breed;
+    
+    // Second dog
+    Dog *myDog2 = [[Dog alloc] init];
+    myDog2.name = @"Rod";
+    myDog2.breed = @"Rotweiller";
+    myDog2.image = [UIImage imageNamed:@"Rotweiller.jpg"];
+    
+    // Third dog
+    Dog *myDog3 = [[Dog alloc] init];
+    myDog3.name = @"Gemma";
+    myDog3.breed = @"Pap";
+    myDog3.image = [UIImage imageNamed:@"Pap.JPG"];
+    
+    // initialize an array to store dogs
+    self.myDogs = [[NSMutableArray alloc] init];
+    
+    // fill the array with dogs
+    [self.myDogs addObject:myDog];
+    [self.myDogs addObject:myDog2];
+    [self.myDogs addObject:myDog3];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

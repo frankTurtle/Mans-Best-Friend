@@ -19,6 +19,9 @@
 // variable for the breed label ( one on the right )
 @property (strong, nonatomic) IBOutlet UILabel *breedLabel;
 
+// array to hold all the dogs!
+@property (strong, nonatomic) NSMutableArray *myDogs;
+
 
 
 @end
