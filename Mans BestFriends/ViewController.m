@@ -58,6 +58,16 @@
     
     // PROBLEM III //
     NSLog(@"%i factorial is: %i", 3, [myDog factorial:3] );
+    
+    // sets the dog's image to our pitbull puppies!
+    myDog.image = [UIImage imageNamed:@"Pitbull_Dog_4.jpg"];
+    
+    // sets the dog's image to our imageView
+    // sets the name label in the view to our object's name
+    // sets the breed label in the view to our object's breed
+    self.myImageView.image = myDog.image;
+    self.nameLabel.text = myDog.name;
+    self.breedLabel.text = myDog.breed;
 }
 
 - (void)didReceiveMemoryWarning {

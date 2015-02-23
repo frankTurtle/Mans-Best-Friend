@@ -15,6 +15,9 @@
 		10640CED1A9A36A800F388FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10640CEB1A9A36A800F388FE /* LaunchScreen.xib */; };
 		10640CF91A9A36A800F388FE /* Mans_BestFriendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10640CF81A9A36A800F388FE /* Mans_BestFriendsTests.m */; };
 		10640D041A9A38D200F388FE /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 10640D031A9A38D200F388FE /* Dog.m */; };
+		108E87E01A9AD10E00964EF6 /* Pitbull_Dog_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 108E87DF1A9AD10E00964EF6 /* Pitbull_Dog_4.jpg */; };
+		108E87E21A9AD54900964EF6 /* Pap.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 108E87E11A9AD54900964EF6 /* Pap.JPG */; };
+		108E87E41A9AD55B00964EF6 /* Rotweiller.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 108E87E31A9AD55B00964EF6 /* Rotweiller.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 		10640CF81A9A36A800F388FE /* Mans_BestFriendsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mans_BestFriendsTests.m; sourceTree = "<group>"; };
 		10640D021A9A38D100F388FE /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		10640D031A9A38D200F388FE /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		108E87DF1A9AD10E00964EF6 /* Pitbull_Dog_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pitbull_Dog_4.jpg; sourceTree = "<group>"; };
+		108E87E11A9AD54900964EF6 /* Pap.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pap.JPG; sourceTree = "<group>"; };
+		108E87E31A9AD55B00964EF6 /* Rotweiller.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rotweiller.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,9 @@
 				10640D021A9A38D100F388FE /* Dog.h */,
 				10640D031A9A38D200F388FE /* Dog.m */,
 				10640CE91A9A36A800F388FE /* Images.xcassets */,
+				108E87E31A9AD55B00964EF6 /* Rotweiller.jpg */,
+				108E87E11A9AD54900964EF6 /* Pap.JPG */,
+				108E87DF1A9AD10E00964EF6 /* Pitbull_Dog_4.jpg */,
 				10640CEB1A9A36A800F388FE /* LaunchScreen.xib */,
 				10640CDC1A9A36A800F388FE /* Supporting Files */,
 			);
@@ -204,9 +213,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108E87E01A9AD10E00964EF6 /* Pitbull_Dog_4.jpg in Resources */,
 				10640CE81A9A36A800F388FE /* Main.storyboard in Resources */,
+				108E87E41A9AD55B00964EF6 /* Rotweiller.jpg in Resources */,
 				10640CED1A9A36A800F388FE /* LaunchScreen.xib in Resources */,
 				10640CEA1A9A36A800F388FE /* Images.xcassets in Resources */,
+				108E87E21A9AD54900964EF6 /* Pap.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +430,7 @@
 				10640CFE1A9A36A800F388FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10640CFF1A9A36A800F388FE /* Build configuration list for PBXNativeTarget "Mans BestFriendsTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				10640D011A9A36A800F388FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

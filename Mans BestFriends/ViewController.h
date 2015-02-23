@@ -10,6 +10,16 @@
 
 @interface ViewController : UIViewController
 
+// variable to control the image
+@property (strong, nonatomic) IBOutlet UIImageView *myImageView;
+
+// variable for the nameLabel ( one on the left )
+@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
+
+// variable for the breed label ( one on the right )
+@property (strong, nonatomic) IBOutlet UILabel *breedLabel;
+
+
 
 @end
 
