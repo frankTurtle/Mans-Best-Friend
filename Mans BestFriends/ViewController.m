@@ -10,6 +10,7 @@
 
 // import the class Dog we're writing
 #import "Dog.h"
+#import "Puppy.h"
 
 @interface ViewController ()
 
@@ -93,6 +94,19 @@
     // initialize the index
     self.index = 0;
     
+    // Creating a puppy object
+    // Showing inheritance
+    Puppy *pup = [[Puppy alloc] init];
+    [ pup givePuppyEyes ];
+    
+    // setting the puppy variables to prove inheritance
+    // also put him in the array of dogs
+    pup.name = @"Jose the Puppy";
+    pup.breed = @"Mutt";
+    [self.myDogs addObject:pup];
+    
+    // testing the override of the Superclass bark
+    [pup bark];
 }
 
 - (void)didReceiveMemoryWarning {

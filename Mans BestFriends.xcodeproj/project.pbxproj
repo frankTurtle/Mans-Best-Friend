@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1057FFC01AA1558500CE7E1B /* Puppy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1057FFBF1AA1558500CE7E1B /* Puppy.m */; };
 		10640CDF1A9A36A800F388FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10640CDE1A9A36A800F388FE /* main.m */; };
 		10640CE21A9A36A800F388FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10640CE11A9A36A800F388FE /* AppDelegate.m */; };
 		10640CE51A9A36A800F388FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10640CE41A9A36A800F388FE /* ViewController.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1057FFBE1AA1558500CE7E1B /* Puppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Puppy.h; sourceTree = "<group>"; };
+		1057FFBF1AA1558500CE7E1B /* Puppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Puppy.m; sourceTree = "<group>"; };
 		10640CD91A9A36A800F388FE /* Mans BestFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mans BestFriends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10640CDD1A9A36A800F388FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10640CDE1A9A36A800F388FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -97,6 +100,8 @@
 				10640CE61A9A36A800F388FE /* Main.storyboard */,
 				10640D021A9A38D100F388FE /* Dog.h */,
 				10640D031A9A38D200F388FE /* Dog.m */,
+				1057FFBE1AA1558500CE7E1B /* Puppy.h */,
+				1057FFBF1AA1558500CE7E1B /* Puppy.m */,
 				10640CE91A9A36A800F388FE /* Images.xcassets */,
 				108E87E31A9AD55B00964EF6 /* Rotweiller.jpg */,
 				108E87E11A9AD54900964EF6 /* Pap.JPG */,
@@ -239,6 +244,7 @@
 				10640CE51A9A36A800F388FE /* ViewController.m in Sources */,
 				10640CE21A9A36A800F388FE /* AppDelegate.m in Sources */,
 				10640D041A9A38D200F388FE /* Dog.m in Sources */,
+				1057FFC01AA1558500CE7E1B /* Puppy.m in Sources */,
 				10640CDF1A9A36A800F388FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
