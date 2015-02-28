@@ -18,6 +18,9 @@
 // overriding Super class methods
 -(void) bark
 {
+    // calling the super method bark
+    [super bark];
+    
     NSLog(@"whimper");
 }
 
