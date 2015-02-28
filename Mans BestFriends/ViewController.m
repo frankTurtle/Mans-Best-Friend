@@ -89,7 +89,9 @@
     [self.myDogs addObject:myDog2];
     [self.myDogs addObject:myDog3];
     
-    
+    // Challenge 5
+    // initialize the index
+    self.index = 0;
     
 }
 
@@ -98,4 +100,29 @@
     // Dispose of any resources that can be recreated.
 }
 
+// bar button to get a new dog
+- (IBAction)newDogItemPressed:(id)sender
+{
+    int numOfDogs = [self.myDogs count];
+    int randomIndex = arc4random() % numOfDogs;
+    
+    // check to see if the new index is the same as the old one
+    // if it is it will reassign  random index
+    if( randomIndex == self.index )
+    {
+        randomIndex = arc4random() % numOfDogs;
+    }
+    
+    // after it checks it updates the index to the one being used
+    self.index = randomIndex;
+    
+    Dog *randomDog = [self.myDogs objectAtIndex:randomIndex];
+    
+    self.myImageView.image = randomDog.image;
+    self.breedLabel.text = randomDog.breed;
+    self.nameLabel.text = randomDog.name;
+    
+    self.title = @"And another";
+    
+}
 @end

@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+// NewDog button
+
+-(IBAction)newDogItemPressed:(id)sender;
+
 // variable to control the image
 @property (strong, nonatomic) IBOutlet UIImageView *myImageView;
 
@@ -22,6 +26,8 @@
 // array to hold all the dogs!
 @property (strong, nonatomic) NSMutableArray *myDogs;
 
+// variable to hold the position in the array
+@property (nonatomic) int index;
 
 
 @end
